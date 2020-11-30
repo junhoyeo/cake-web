@@ -22,7 +22,7 @@ const PORT: number | string = process.env.PORT || 5000;
   });
 
 mongoose.connect(
-  'mongodb://user:dkanakf10@ds253398.mlab.com:53398/cakee',
+  'mongodb://localhost:27017/cakee',
   { useNewUrlParser: true },
   (err) => {
     if (err) {
